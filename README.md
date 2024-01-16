@@ -5,3 +5,6 @@
 3. Clicking on an item should turn it into a chip at the top, and the input field should adjust automatically.  
 4. Once an item becomes a chip, it should no longer be in the list.  
 5. Each chip has an "X" icon. Clicking it removes the chip and adds the item back to the list.  
+
+
+Live link: https://react-magic-zepto.netlify.app/
