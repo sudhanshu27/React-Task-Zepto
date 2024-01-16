@@ -1,4 +1,4 @@
-# Task Design and implement a chip component with following specifications.  
+# Task: Design and implement a chip component with following specifications.  
 ***Specifications***  
 1. When you click on the input field, a list of items will appear.  
 2. As you type, the list should show only items that match what you're typing.  
