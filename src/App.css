@@ -1,38 +1,83 @@
 .App {
   text-align: center;
+  margin: 100px;
+  font-size: x-large;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input {
+  height: 4vh;
+  width: 50%;
+  border: none; /* Remove default borders */
+  border-bottom: 3px solid black; /* Add bottom border */
+  outline: none; /* Remove default focus outline */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  margin: 0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list {
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 250px;
+  width: 250px;
+  margin: 1px auto auto 40vw;
+  overflow-y: scroll;
+  background-color: rgb(177, 216, 238);
+}
+.list::-webkit-scrollbar {
+  width: 0px;
+}
+li {
+  display: flex;
+  margin-left: -40px;
+  list-style: none;
+  border: none; /* Remove default borders */
+  border-bottom: 1px solid black; /* Add bottom border */
+  outline: none; /* Remove default focus outline */
+  padding: 10px;
+  cursor: pointer;
+}
+.upper-box {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none; /* Remove default borders */
+  outline: none; /* Remove default focus outline */
+}
+.chips {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 10vh;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent items from wrapping to the next line */
+}
+.chips::-webkit-scrollbar {
+  width: 0px;
+}
+.chip-item {
+  display: flex;
+  align-items: center;
+  margin: auto 5px auto auto;
+  background-color: rgb(218, 234, 118);
+  border-radius: 20px;
+  height: 5vh;
+  padding: 4px;
+}
+.left-chip-item {
+  background-color: rgb(218, 234, 118);
+  border-radius: 20px;
+}
+.right-chip-item {
+  background-color: rgb(223, 55, 55);
+  border-radius: 50%;
+  width: 25px;
+  cursor: pointer;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading {
+  font-size: xxx-large;
+  margin-bottom: -20px;
 }
